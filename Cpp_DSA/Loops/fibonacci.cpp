@@ -9,7 +9,7 @@ int main(){
     for(int i = 1;i<=n;i++){
         next = first + second;
         cout<<first<<" ";
-        first = second;10
+        first = second;
         second = next;
     }
     
