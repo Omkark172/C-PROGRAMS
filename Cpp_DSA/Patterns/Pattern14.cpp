@@ -30,7 +30,7 @@ int main(){
         cout<<endl;
     
  }
-//Mams Logic
+//Another Logic
 // for(int i = 1; i<=n ; i++){
 //         //spaces
 //         for(int j = 1; j <= n-i ; j++){
