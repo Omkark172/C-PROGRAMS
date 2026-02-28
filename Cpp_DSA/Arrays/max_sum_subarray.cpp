@@ -5,13 +5,13 @@ using namespace std;
 void maxSumSubarray(int *arr , int n){
     int maxSum = INT_MIN; 
     for(int start = 0 ; start < n ; start++){
-        int currSum = 0;
         for(int end = start ; end < n ; end++){
+             int currSum = 0;
            // cout << "(" << start << "," << end << ")
             for(int i = start ; i <= end ; i++){
                 currSum += arr[i];
             }
-            cout << currSum << ", ";
+            cout << currSum << ",";
             maxSum = max(maxSum , currSum); // In cpp header max their is a function called max 
         }
         cout<<endl;
