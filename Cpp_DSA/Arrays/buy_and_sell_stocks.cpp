@@ -21,6 +21,7 @@ void maxProfit(int *prices , int n){
         int currProfit = prices[i] - bestBuy[i];
         maxProfit = max(maxProfit , currProfit);
     }
+    //Time comp = O(n+n) = O(2n) = O(n)
     cout<<"max Profit = "<<maxProfit<<endl;
 }
 
