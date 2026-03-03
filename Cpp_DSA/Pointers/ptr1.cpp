@@ -1,0 +1,12 @@
+//Address of & Operator
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a = 10;
+    int b = 5;
+    cout<<&a<<endl;
+    cout<<&b<<endl;
+    return 0;
+}
