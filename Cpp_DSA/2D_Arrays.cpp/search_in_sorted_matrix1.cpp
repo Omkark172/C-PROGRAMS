@@ -33,7 +33,7 @@ int searchinSortedMatrix(int mat[][4] , int n , int m , int key){
 //             //right
 //             j++;
 //         }else{
-//             //down
+//             //top
 //             i--;
 //         }
 //     }
