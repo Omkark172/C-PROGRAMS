@@ -1,4 +1,5 @@
 #include<iostream>
+#include <cstring>
 using namespace std;
 
 
@@ -12,13 +13,15 @@ int main(){
     cout << str[4] << endl;
 
     char arr[5] = {'c' , 'o' , 'd' , 'e' , '\0'};
-
+    cout<<strlen(arr) <<endl;
     cout<< arr<<endl;
 
    // "hello world " String Literals
     // "a" String Literals
     char work[] = "coding";
+    cout<<strlen(work) <<endl;
     cout << work <<endl;
+    
 
     return 0;
 }
