@@ -15,7 +15,7 @@ int main(){
 
     func();
 
-    cout << arr[0] << endl;
+    //cout << arr[0] << endl;
 
 
     return 0;
