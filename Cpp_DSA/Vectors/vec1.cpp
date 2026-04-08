@@ -12,5 +12,10 @@ int main(){
     vector<int> vec3(10, -1); // 10 elements with value -1
     cout << vec3.size() << "\n";
 
+    for(int i=0 ; i<vec2.size() ; i++){
+        cout << vec3[i] << " ";
+    }
+    cout << "\n";
+
     return 0;
 }
